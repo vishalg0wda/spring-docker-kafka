@@ -1,0 +1,6 @@
+spring:
+  kafka:
+    consumer:
+      bootstrap-servers: kafka:9092
+    producer:
+      bootstrap-servers: ${spring.kafka.consumer.bootstrap-servers}

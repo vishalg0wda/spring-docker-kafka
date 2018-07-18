@@ -1,0 +1,6 @@
+spring:
+  application:
+      name: svc1
+  kafka:
+    consumer:
+      group-id: ${spring.application.name}
